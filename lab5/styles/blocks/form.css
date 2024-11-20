@@ -35,14 +35,14 @@
 .form__group--inline {
     display: flex;
     justify-content: space-between;
-    gap: 20px; /* Расстояние между полями */
+    gap: 20px; 
 }
 
 .form__inline-item {
-    flex: 1; /* Поля будут занимать равное пространство */
+    flex: 1; 
     display: flex;
     flex-direction: column;
-    gap: 5px; /* Отступы внутри */
+    gap: 5px; 
 }
 
 .form__label {
@@ -125,7 +125,7 @@
     text-decoration: underline;
 }
 
-/* Адаптивность для формы */
+
 @media (max-width: 768px) {
     .form__group--inline {
         flex-direction: column;
