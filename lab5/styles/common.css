@@ -1,0 +1,35 @@
+@import url("blocks/footer.css");
+@import url("blocks/form.css");
+@import url("blocks/header.css");
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.page {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+/* Адаптивность для мобильных устройств */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .page {
+        padding: 10px;
+    }
+}
