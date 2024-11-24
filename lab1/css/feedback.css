@@ -1,0 +1,141 @@
+/* Секция отзывы */
+.feedback{
+    max-width: 1111px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 68px;
+}
+    @media (max-width: 1224px) {
+        .feedback{
+            flex-direction: column;
+        }
+    }
+
+
+.feedback__image{
+    border-radius: 25px;
+    width: 478px;
+    height: 537px;
+}
+
+.feedback__title{
+    margin: 0;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 45px;
+    color: #0F1F1C;
+}
+    @media (max-width: 1224px) {
+        .feedback__title{
+            text-align: center;
+            font-size: 35px;
+        }
+    }
+
+
+/* Отзыв */
+    .review_margin{
+        margin-top: 40px;
+    }
+
+
+.review__header{
+    width: 134px;
+    display: flex;
+    gap: 33px;
+}
+    @media (max-width: 1224px) {
+        .review__header{
+            width: 100%;
+            justify-content: center;
+        }
+    }
+
+
+.review__image{
+    width: 134px;
+    height: 134px;
+    border-radius: 50%;
+    background-color: #FF794E;
+}
+    @media (max-width: 1224px) {
+        .review__image{
+            width: 100px;
+            height: 100px;
+        }
+    }
+
+
+.review__userinfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+.review__username{
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 33px;
+    color: #0F1F1C;
+}
+    @media (max-width: 1224px) {
+        .review__username{
+            font-size: 25px;
+        }
+    }
+
+
+.review__place{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 25px;
+    color: grey;
+    text-wrap: nowrap;
+}
+    @media (max-width: 1224px) {
+        .review__place{
+            font-size: 20px;
+        }
+    }
+
+
+.review__message{
+    margin-top: 60px;
+    margin-bottom: 30px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 25px;
+    color: #0F1F1C;
+}
+    @media (max-width: 1224px) {
+        .review__message{
+            text-align: center;
+            font-size: 20px;
+        }
+    }
+
+    
+.review__rating{
+    display: flex;
+    gap: 8px;
+}
+    @media (max-width: 1224px) {
+        .review__rating{
+            justify-content: center;
+        }
+    }
+
+
+.review__rating img{
+    width: 59px;
+    height: 59px;
+}
+    @media (max-width: 1224px) {
+        .review__rating img{
+            width: 40px;
+            height: 40px;
+        }
+    }

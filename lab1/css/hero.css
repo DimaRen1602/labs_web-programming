@@ -1,0 +1,72 @@
+/* Обертка вступительной секции */
+.hero-wrapper{
+    background: linear-gradient(
+        90deg,
+        #428E5F 0%,
+        #112120 100%
+    );
+}
+
+.hero{
+    max-width: 1240px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+    @media (max-width: 1224px) {
+        .hero{
+            flex-direction: column-reverse;
+            align-items: center;
+            text-align: center;
+        }
+    }
+
+
+.hero__title{
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 55px;
+    color: white;
+}
+    .hero__title_margin-top{
+        margin-top: 20px;
+        margin-bottom: 0;
+    }
+
+    @media (max-width: 1224px) {
+        .hero__title{
+            font-size: 35px;
+        }
+    }
+
+
+
+.hero__text{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 25px;
+    color: #a1b1a8;
+}
+    .hero__text_margin{
+        margin-top: 35px;
+        margin-bottom: 68px;
+    }
+
+    @media (max-width: 1224px) {
+        .hero__text{
+            font-size: 20x;
+        }
+    }
+
+
+.hero__image{
+    padding-top: 50px;
+}
+    @media (max-width: 1224px) {
+        .hero__image{
+            padding-bottom: 50px;
+        }
+        .hero__image img{
+            width: 80%;
+        }
+    }

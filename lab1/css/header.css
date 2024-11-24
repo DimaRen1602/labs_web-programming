@@ -1,0 +1,13 @@
+/* Шапка */
+.header{
+    background: linear-gradient(
+        90deg,
+        #428E5F 0%,
+        #112120 100%
+    );
+}
+
+.header__menu{
+    padding-top: 34px;
+    margin: 0 auto;
+}

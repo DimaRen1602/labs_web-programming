@@ -1,0 +1,25 @@
+/* Позиционирование вступительной секции */
+.main__hero{
+    padding-top: 68px;
+    padding-bottom: 137px;
+    margin: 0 auto;
+}
+    @media (max-width: 1224px) {
+        .main__hero{
+            padding-top: 0;
+        }
+    }
+
+
+/* Позиционирование секции отзывы */
+.main__feedback{
+    padding-top: 150px;
+    margin: 0 auto;
+}
+    @media (max-width: 1224px) {
+        .main__feedback{
+            padding-top: 100px;
+        }
+    }
+
+

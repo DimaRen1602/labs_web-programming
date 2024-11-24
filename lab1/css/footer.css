@@ -1,0 +1,11 @@
+/* Позиционирование меню в подвале  */
+.footer__menu{
+    padding-top: 34px;
+    padding-bottom: 34px;
+    margin: 0 auto;
+}
+    @media (max-width: 1224px) {
+        .footer__menu{
+            flex-direction: column-reverse;
+        }
+    }

@@ -1,0 +1,145 @@
+/* Импорт шрифта Poppins*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700');
+
+
+/* Общие стили */
+
+.menu{
+    max-width: 1240px;
+    display: flex;
+    gap: 70px;
+    row-gap: 30px;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+    @media (max-width: 1224px) {
+        .menu{
+            justify-content: center;
+        }
+    }
+
+
+.menu__left{
+    width: 93px;
+}
+    /* Адаптивные стили для левой части меню */
+    @media (max-width: 1224px) {
+        .menu__left{
+            min-width: 100%;
+            text-align: center;
+        }
+    }
+
+
+.menu__center{
+    width: 464px;
+    display: flex;
+    gap: 80px;
+}
+
+
+.menu__right{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    width: 210px;
+}
+    @media (max-width: 1224px) {
+        .menu__right{
+            min-width: 100%;
+            justify-content: center;
+        }
+    }
+
+
+.menu__logo{
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 20px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+    .menu__logo_color_orange{
+        color: #FF7C4E;
+    }
+
+
+.menu__link{
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 15px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+    .menu__link_color_grey{
+        color: #828A89;
+    }
+
+    .menu__link_type_active{
+        position: relative;
+        display: inline-block;
+    }
+    .menu__link_type_active::after {
+        content: '';
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 35px;
+        height: 4px;
+        border-radius: 25px;
+        background-color: #C4C4C4;
+    }
+
+
+    
+.link-button{
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 15px;
+    text-decoration: none;
+    padding-left: 43px;
+    padding-right: 43px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+    .link-button_type_primary{
+        background: linear-gradient(
+            -21deg,
+            #FF7B4E 0%,
+            #FF584E 100%
+        );
+        color: white;
+    }
+    .link-button_type_secondary{
+        color: white;
+        background-color: rgba(255, 255, 255, 0.25);
+        border: 1px solid black;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    
+    .link-button_border_radius_round{
+        border-radius: 100px;
+    }
+    .link-button_border_radius_rounded{
+        border-radius: 15px;
+    }
+
+
+    .link-button_size_medium{
+        font-size: 18px;
+        padding-top: 11px;
+        padding-bottom: 11px;
+        padding-left: 33px;
+        padding-right: 33px;
+    }
+    .link-button_size_big{
+        font-weight: 600;
+        font-size: 25px;
+        padding-top: 27px;
+        padding-bottom: 27px;
+        padding-left: 48px;
+        padding-right: 48px;
+
+    }

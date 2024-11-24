@@ -1,0 +1,17 @@
+/* Стили body */
+.body {
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.body__footer{
+    margin-top: 150px;
+}
+    @media (max-width: 1224px) {
+        .main__footer{
+            margin-top: 80px;
+        }
+    }
